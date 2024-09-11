@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registrations",
+  "info": {
+    "singularName": "registration",
+    "pluralName": "registrations",
+    "displayName": "Registration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "pluginOptions": {},
+      "type": "string",
+      "required": true,
+      "default": "Ivan"
+    },
+    "email": {
+      "pluginOptions": {},
+      "type": "email",
+      "required": true
+    },
+    "Password": {
+      "pluginOptions": {},
+      "type": "password",
+      "required": true
+    },
+    "phoneNumber": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "companyName": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "inn": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "isIndividual": {
+      "pluginOptions": {},
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

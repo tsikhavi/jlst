@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regs",
+  "info": {
+    "singularName": "reg",
+    "pluralName": "regs",
+    "displayName": "Reg",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StorageSize": {
+      "type": "decimal"
+    },
+    "Documents": {
+      "type": "integer"
+    },
+    "AverageDocumentSize": {
+      "type": "decimal"
+    },
+    "Indexes": {
+      "type": "integer"
+    },
+    "TotalIndexSize": {
+      "type": "decimal"
+    }
+  }
+}

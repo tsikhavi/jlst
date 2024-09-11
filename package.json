@@ -5,14 +5,22 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "backend-dev": "cd ./backend-jslt && yarn develop",
+    "devc": "concurrently \"npm run dev\" \"npm run backend-dev\"",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/strapi": "^1.12.0",
+    "axios": "^1.7.7",
+    "concurrently": "^8.2.2",
+    "globby": "^14.0.2",
     "nuxt": "^3.13.0",
     "swiper": "^11.1.10",
-    "vue": "latest"
+    "vue": "latest",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
